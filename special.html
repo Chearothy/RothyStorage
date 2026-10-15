@@ -176,9 +176,9 @@
                             <button onclick="triggerMainAnniversaryCalendar()" class="text-xs bg-rose-500 hover:bg-rose-600 text-white px-3.5 py-1.5 rounded-full font-semibold shadow-md transition flex items-center gap-1.5">
                                 <i data-lucide="calendar-plus" class="w-4 h-4"></i> Add to Google Calendar
                             </button>
-                            <button onclick="handleIcsDownload(state.title, state.startDate, `Anniversary for ${state.p1Name} & ${state.p2Name}! ❤️`, true)" class="text-xs bg-white/80 dark:bg-slate-800 hover:bg-white text-slate-700 dark:text-slate-200 px-2.5 py-1.5 rounded-full font-semibold border border-rose-200 dark:border-rose-800 shadow-sm transition flex items-center gap-1" title="Download .ics File for Apple/Outlook">
+                            <!-- <button onclick="handleIcsDownload(state.title, state.startDate, `Anniversary for ${state.p1Name} & ${state.p2Name}! ❤️`, true)" class="text-xs bg-white/80 dark:bg-slate-800 hover:bg-white text-slate-700 dark:text-slate-200 px-2.5 py-1.5 rounded-full font-semibold border border-rose-200 dark:border-rose-800 shadow-sm transition flex items-center gap-1" title="Download .ics File for Apple/Outlook">
                                 <i data-lucide="download" class="w-3.5 h-3.5"></i> .ics
-                            </button>
+                            </button> -->
                         </div>
                     </div>
 
@@ -1009,9 +1009,9 @@
                             <button onclick="triggerEventCalendar('${escapeJs(ev.title)}', '${ev.date}')" class="px-3 py-1.5 bg-rose-500 hover:bg-rose-600 text-white font-semibold text-xs rounded-lg shadow-sm transition flex items-center gap-1" title="Directly open Google Calendar web app">
                                 <i data-lucide="calendar-plus" class="w-3.5 h-3.5"></i> Add to Calendar
                             </button>
-                            <button onclick="handleIcsDownload('${escapeJs(ev.title)}', '${ev.date}', '${escapeJs(ev.note)}', true)" class="px-2 py-1.5 bg-rose-100 dark:bg-rose-950/60 hover:bg-rose-200 text-rose-600 dark:text-rose-300 font-semibold text-xs rounded-lg transition flex items-center gap-1" title="Download .ics file">
-                                <i data-lucide="download" class="w-3 h-3"></i> .ics
-                            </button>
+                            // <button onclick="handleIcsDownload('${escapeJs(ev.title)}', '${ev.date}', '${escapeJs(ev.note)}', true)" class="px-2 py-1.5 bg-rose-100 dark:bg-rose-950/60 hover:bg-rose-200 text-rose-600 dark:text-rose-300 font-semibold text-xs rounded-lg transition flex items-center gap-1" title="Download .ics file">
+                            //     <i data-lucide="download" class="w-3 h-3"></i> .ics
+                            // </button>
                         </div>
                     </div>
                 `;
